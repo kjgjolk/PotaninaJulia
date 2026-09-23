@@ -269,7 +269,6 @@ header {
     background-color: #EBE3D7;
     font-size: 16px;
     line-height: 37px;
-    letter-spacing: 7%;
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -298,17 +297,12 @@ img {
 
     html,
     body {
-        width: 100%;
         max-width: 440px;
         overflow-x: hidden;
     }
 
     body {
         margin: 0;
-    }
-
-    img {
-        max-width: 100%;
     }
 
     header {
@@ -363,7 +357,6 @@ img {
     }
 
     .MainText {
-        width: 100%;
         margin-top: 15px;
         font-size: 14px;
         line-height: 1.5;
@@ -371,10 +364,6 @@ img {
 
     .MainText br {
         display: none;
-    }
-
-    .MainButton {
-        width: 100%;
     }
 
     .ButtonLearn {
@@ -416,7 +405,7 @@ img {
     }
 
     .Story {
-        width: 100%;
+        width: 400px;
         display: flex;
         gap: 16px;
         align-items: center;
@@ -453,7 +442,7 @@ img {
     }
 
     .Photo {
-        width: 100%;
+
         display: flex;
         gap: 8px;
         overflow-x: hidden;
@@ -469,7 +458,6 @@ img {
     }
 
     .Buttons {
-        width: 100%;
         display: flex;
         justify-content: center;
         gap: 18px;
@@ -484,7 +472,6 @@ img {
     }
 
     .FootText {
-        width: 100%;
         background-color: #EBE3D7;
         height: 300px;
     }
@@ -552,7 +539,7 @@ img {
     .Foot1,
     .Foot2 {
         background-color: #F6F6F6;
-        width: 100%;
+
     }
 
     .Subscribe {
