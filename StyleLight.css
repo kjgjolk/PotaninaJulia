@@ -531,7 +531,6 @@ img {
         flex-direction: column;
         justify-content: flex-start;
         gap: 7px;
-
         font-size: 11px;
         line-height: 1.4;
     }
@@ -539,7 +538,6 @@ img {
     .Foot1,
     .Foot2 {
         background-color: #F6F6F6;
-
     }
 
     .Subscribe {
