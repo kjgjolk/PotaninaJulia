@@ -106,11 +106,11 @@ header {
     color: #D9D9D9;
 
 }
-.history {
+.History {
     width: 1100px;
     margin: auto;
 }
-.historymounth {
+.HistoryMounth {
     margin-top: 30px;
     font-size: 16px;
     color: #D9D9D9;
@@ -128,7 +128,7 @@ header {
 
 }
 
-.txt {
+.Txt {
     margin-top: 15px;
     color: #D9D9D9;
 }
@@ -143,21 +143,21 @@ header {
     width: 1120px;
 }
 
-.photo {
+.Photo {
     display: flex;
     gap: 55px;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
-.buttons {
+.Buttons {
     display: flex;
     justify-content: center;
     gap: 25px;
     margin-top: 25px;
 }
 
-.square {
+.Square {
     width: 8px;
     height: 8px;
     background: #C89173;
@@ -203,14 +203,14 @@ header {
 }
 
 
-.email-form {
+.EmailForm {
     padding-left: 30px;
     margin-top: 25px;
     background-color: #101318;
     border: none;
 }
 
-.email-form input {
+.EmailForm input {
     background-color: white;
     width: 250px;
     height: 40px;
@@ -221,7 +221,7 @@ header {
     padding-left: 15px;
 }
 
-.podp {
+.Subscribe {
     width: 200px;
     height: 40px;
     background-color: #B57C11;
@@ -318,20 +318,7 @@ img {background-color: transparent;}
     .Menu {
         display: none;
     }
-    .burger {
-        width: 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 5px;
-    }
-
-    .burger span {
-        display: block;
-        width: 22px;
-        height: 2px;
-        background-color: #C58A1A;
-    }
+   
 
     .Main {
         width: 400px;
@@ -396,12 +383,12 @@ img {background-color: transparent;}
        display: none;
     }
 
-    .history {
+    .History {
         width: 390px;
         margin: auto;
     }
 
-    .historymounth {
+    .HistoryMounth {
         width: 400px;
         margin-top: 30px;
         font-size: 14px;
@@ -431,7 +418,7 @@ img {background-color: transparent;}
         object-fit: cover;
     }
 
-    .txt {
+    .Txt {
         width: 400px;
         margin-top: 0;
         font-size: 13px;
@@ -448,12 +435,12 @@ img {background-color: transparent;}
         font-size: 14px;
     }
 
-    .slider {
+    .Slider {
         width: 400px;
         overflow: hidden;
     }
 
-    .photo {
+    .Photo {
         width: 100%;
         display: flex;
         gap: 8px;
@@ -462,14 +449,14 @@ img {background-color: transparent;}
         flex-wrap: nowrap;
     }
 
-    .photo img {
+    .Photo img {
         width: 160px;
         height: 150px;
         object-fit: cover;
         display: block;
     }
 
-    .buttons {
+    .Buttons {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -477,7 +464,7 @@ img {background-color: transparent;}
         margin-top: 15px;
     }
 
-    .square {
+    .Square {
         width: 8px;
         height: 8px;
         padding: 0;
@@ -511,7 +498,7 @@ img {background-color: transparent;}
         background-color: #1B1F25;
         color: #D9D9D9;
     }
-        .email-form {
+        .EmailForm {
     margin-top: 25px;
     background-color: #1B1F25;
     border: none;
@@ -519,7 +506,7 @@ img {background-color: transparent;}
     border-radius: 10px;
 }
 
-.email-form input {
+.EmailForm input {
     background-color:#1B1F25;
     width: 250px;
     height: 40px;
@@ -531,7 +518,7 @@ img {background-color: transparent;}
 
     }
 
-    .foot {
+    .Foot {
         background-color: #101318;
         width: 400px;
         margin-top: px;
@@ -544,12 +531,12 @@ img {background-color: transparent;}
         line-height: 1.4;
     }
 
-    .foot1,
-    .foot2 {
+    .Foot1,
+    .Foot2 {
         background-color:  #101318;
         width: 100%;
     }
-    .podp {
+    .Subscribe {
     width: 250px;
     height: 40px;
     background-color: #C89173;
