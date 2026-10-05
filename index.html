@@ -6,70 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лето 2026</title>
     <link rel="stylesheet" href="StyleLight.css">
-    
 </head>
 
 <body>
-    <header>
-        <div class="MySummer"> Мое лето <span> 2026 </span> </div>
-        <div class="Menu">
-            <div class="Nav"><a href=""><u>Главная</u></a>
-            <a href=""class="month-link" data-index="0">Июнь</a>
-            <a href=""class="month-link" data-index="1">Июль</a>
-            <a href=""class="month-link" data-index="2">Август</a>
+    <header class="site-header">
+        <div class="site-header__brand"> Мое лето <span> 2026 </span> </div>
+        <div class="site-header__menu">
+            <div class="site-header__nav"><a href=""><u>Главная</u></a>
+            <a href=""class="site-header__month-link" data-index="0">Июнь</a>
+            <a href="" class="site-header__month-link" data-index="1">Июль</a>
+            <a href=""  class="site-header__month-link" data-index="2">Август</a>
             <a href="">Обо мне</a>
         </div>
-            
-            <div class="Topik"><a href="WebsiteDark.html"> <img src="photo/night.png" alt=""></a></div>
         </div>
-      
+        <div class="site-header__theme"><a href="WebsiteDark.html"> <img src="photo/night.png" alt="Светлая тема"></a></div>
     </header>
     <main>
-        <div class="Main">
-            <div class="Text">
-                <div class="Title"> Как я провела <span> лето </span></div>
-                <div class="MainText"> Это лето было наполнено солнцем,<br> новыми впечатлениями, приключениями,<br>
-                    друзьями и
-                    моментами, которые я запомню <br>навсегда</div>
-                <div class="MainButton"> <input class="ButtonLearn" type="button" value="Узнать подробнее →" onclick=""></div>
-                <div class="MainLine"> 01 <img src="photo/Line 1.png" alt="" height="1px"> 02</div>
+        <div class="hero">
+            <div class="hero__content">
+                <div class="hero__title"> Как я провела <span> лето </span></div>
+                <div class="hero__text"> Это лето было наполнено солнцем,<br> новыми впечатлениями, приключениями,<br>
+                    друзьями и моментами, которые я запомню <br>навсегда</div>
+                <div class="hero__button-wrapper"> <input class="hero__button" type="button" value="Узнать подробнее →" onclick=""></div>
+                <div class="hero__line"> 01 <img src="photo/Line1.png" alt="Линия" height="1px"> 02</div>
             </div>
-            <div class="Collage">
-                <img src="photo/collag.png" alt="Коллаж про лето" width="544px" height="334px">
+            <div class="hero__collage">
+                <img src="photo/glavnaya.png" alt="Коллаж" width="544px" height="334px">
             </div>
         </div>
-        <div class="History">
-            <div class="HistoryMounth">ИСТОРИИ МОЕГО ЛЕТА В МЕСЯЦАХ </div>
-            <div class="About">
-                <div class="Story">
-                    <img src="photo/history1.png" alt="Фото с историей">
-                    <div class="Txt">
+        <div class="history">
+            <div class="history__title">ИСТОРИИ МОЕГО ЛЕТА В МЕСЯЦАХ </div>
+            <div class="history__about">
+                <div class="history__story">
+                    <img src="photo/history1.png" alt="Фото об истории">
+                    <div class="history__text">
                         <p>Начало лето было довольно насыщенным,
                             я много гуляла, ездила к родителям,
                             каталась на катере с друзьями, более
                             подробно можно ознакомиться в фотогалерее</p>
                     </div>
                 </div>
-                <div class="Story">
-                    <img src="photo/history2.png" alt="Фото с историей">
-                    <div class="Txt">
+                <div class="history__story">
+                    <img src="photo/history2.png" alt="Фото об истории">
+                    <div class="history__text">
                         <p>Середина лета прошла еще веселее! Я увиделась со всеми своими друзьями, отметила годовщину с
                             молодым челвоеком и отметила его вручение диплома!</p>
                     </div>
                 </div>
-                <div class="Story">
-                    <img src="photo/history3.png" alt="Фото с историей">
-                    <div class="Txt">
+                <div class="history__story">
+                    <img src="photo/history3.png" alt="Фото об истории">
+                    <div class="history__text">
                         <p> Конец лета прошел уже грустно... Я много работала, изредка могла встретиться с друзьями и
                             родными. Но веселье было - мой отец купил катер и я им управляла!</p>
                     </div>
                 </div>
             </div>
-            <div class="HistoryMounth">ФОТОГАЛЕРЕЯ </div>
-            <div class="Slider">
-                <div class="TitleMounth">Июнь</div>
-                <div class="MounthSlider">
-                    <div class="Photo">
+            <div class="history__title">ФОТОГАЛЕРЕЯ </div>
+            <div class="month-slider">
+                <div class="month-slider__title">Июнь</div>
+                <div class="month-slider__content">
+                    <div class="month-slider__photos">
                         <img src="photo/июнь1.png" alt="Фото про июнь">
                         <img src="photo/июнь 2.png" alt="Фото про июнь">
                         <img src="photo/июнь3.png" alt="Фото про июнь">
@@ -78,37 +74,36 @@
                         <img src="photo/июнь6.png" alt="Фото про июнь">
                         <img src="photo/июнь7.png" alt="Фото про июнь">
                     </div>
-                    <div class="Buttons">
-                        <button class="Square " data-slide="0"></button>
-                        <button class="Square" data-slide="1"></button>
-                        <button class="Square" data-slide="2"></button>
+                    <div class="month-slider__controls">
+                        <button class="month-slider__dot " data-slide="0"></button>
+                        <button class="month-slider__dot" data-slide="1"></button>
+                        <button class="month-slider__dot" data-slide="2"></button>
                     </div>
                 </div>
             </div>
-            <div class="Slider">
-                <div class="TitleMounth">Июль</div>
-                <div class="MounthSlider">
-                    <div class="Photo">
-                        <img src="photo/июнь7.png" alt="Фото про июль">
+            <div class="month-slider">
+                <div class="month-slider__title">Июль</div>
+                <div class="month-slider__content">
+                    <div class="month-slider__photos">
                         <img src="photo/июль1.png"alt="Фото про июль">
-                        <img src=" photo/июль2.png" alt="Фото про июль">
+                        <img src="photo/июль2.png" alt="Фото про июль">
                         <img src="photo/июль3.png" alt="Фото про июль">
                         <img src="photo/июль4.png" alt="Фото про июль">
                         <img src="photo/июль5.png" alt="Фото про июль">
                         <img src="photo/июль6.png" alt="Фото про июль">
                         <img src="photo/июль7.png" alt="Фото про июль">
                     </div>
-                    <div class="Buttons">
-                        <button class="Square " data-slide="0"></button>
-                        <button class="Square" data-slide="1"></button>
-                        <button class="Square" data-slide="2"></button>
+                    <div class="month-slider__controls">
+                        <button class="month-slider__dot " data-slide="0"></button>
+                        <button class="month-slider__dot" data-slide="1"></button>
+                        <button class="month-slider__dot" data-slide="2"></button>
                     </div>
                 </div>
             </div>
-            <div class="Slider">
-                <div class="TitleMounth">Август</div>
-                <div class="MounthSlider">
-                    <div class="Photo">
+            <div class="month-slider">
+                <div class="month-slider__title">Август</div>
+                <div class="month-slider__content">
+                    <div class="month-slider__photos">
                         <img src="photo/август1.png" alt="Фото про август">
                         <img src="photo/август.png" alt="Фото про август">
                         <img src="photo/август3.png" alt="Фото про август">
@@ -116,44 +111,44 @@
                         <img src="photo/август5.png" alt="Фото про август">
 
                     </div>
-                    <div class="Buttons">
-                        <button class="Square" data-slide="0"></button>
-                        <button class="Square" data-slide="1"></button>
-                        <button class="Square" data-slide="2"></button>
+                    <div class="month-slider__controls">
+                        <button class="month-slider__dot " data-slide="0"></button>
+                        <button class="month-slider__dot" data-slide="1"></button>
+                        <button class="month-slider__dot" data-slide="2"></button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="Feedback">
-            <div class="FootText">
-                <div class="FootTitle">Хочешь узнавать первым о новых историях? </div>
-                <div class="EndText">Подпишись на обновления и следи за <br>
+    <footer class="site-footer">
+        <div class="site-footer__feedback">
+            <div class="site-footer__subscription">
+                <div class="site-footer__title">Хочешь узнавать первым о новых историях? </div>
+                <div class="site-footer__text">Подпишись на обновления и следи за <br>
                     моими путешествиями и впечатленими</div>
-                <div class="FootButton">
-                    <form class="EmailForm">
+                <div class="site-footer__form-row">
+                    <form class="site-footer__email-form">
                         <input type="email" placeholder="Ваш e-mail" required>
                     </form>
-                    <button type="submit" class="Subscribe">Подписаться </button>
+                    <button type="submit" class="site-footer__subscribe">Подписаться </button>
                 </div>
             </div>
-            <div class="Connect">
-                <div class="ConnectText">
-                    <div class="ConnectTitle">ДАВАЙ СВЯЖЕМСЯ</div>
-                    <div class="ConnectLine"><img src="photo/Line 4.png" alt="Линия"></div>
-                    <div class="Mail">
+            <div class="site-footer__contacts">
+                <div class="site-footer__contacts-text">
+                    <div class="site-footer__contacts-title">ДАВАЙ СВЯЖЕМСЯ</div>
+                    <div class="site-footer__contacts-line"><img src="photo/Line 4.png" alt="Линия"></div>
+                    <div class="site-footer__mail">
                         email@email.ru <br>@instagram <br>+7 (999) 000-01-02
                     </div>
                 </div>
-                <div class="ConnectPhoto">
+                <div class="site-footer__contacts-photo">
                     <img src="photo/fotik.png" alt="Фотоаппарат">
                 </div>
             </div>
         </div>
-        <div class="Foot">
-            <div class="Foot1">Моё лето 2026    Все права защищены</div>
-            <div class="Foot2"> Политика конфиденциальности     Условия использования</div>
+        <div class="site-footer__bottom">
+            <div class="site-footer__copyright">Моё лето 2026    Все права защищены</div>
+            <div class="site-footer__legal"> Политика конфиденциальности     Условия использования</div>
         </div>
     </footer>
     <script src="js.js"></script>
