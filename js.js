@@ -1,11 +1,9 @@
-const sliders = document.querySelectorAll('.Slider');
-
-
+const sliders = document.querySelectorAll('.month-slider');
 
 sliders.forEach(Slider => {
 
-    const Photo = Slider.querySelector('.Photo');
-    const Squares = Slider.querySelectorAll('.Square');
+    const Photo = Slider.querySelector('.month-slider__photos');
+    const Squares = Slider.querySelectorAll('.month-slider__dot');
 
     Squares.forEach((Square, index) => {
 
@@ -33,22 +31,25 @@ sliders.forEach(Slider => {
 
 
 const monthLinks =
-    document.querySelectorAll('.month-link');
+    document.querySelectorAll('.site-header__month-link');
+
 const months =
-    document.querySelectorAll('.History > .Slider');
+    document.querySelectorAll('.history > .month-slider');
 
 monthLinks.forEach(link => {
 
     link.addEventListener('click', function (event) {
 
         event.preventDefault();
+
         const index =
             Number(this.dataset.index);
+
         months[index].scrollIntoView({
             behavior: 'smooth',
             block: 'start'
         });
 
     });
-    
+
 });
